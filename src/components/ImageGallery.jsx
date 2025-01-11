@@ -1,13 +1,19 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import img1 from './../images/img1.webp';
-import img2 from './../images/img2.jpeg';
-import img3 from './../images/img3.png';
 
 const images = [
-  { src: img1, bgColor: '#ff5733' },
-  { src: img2, bgColor: '#33c3ff' },
-  { src: img3, bgColor: '#7d33ff' },
+  {
+    src: 'https://images.ctfassets.net/3viuren4us1n/5YzA7KGIWQEjt8KStZGlxd/992b5c0e04b062195155c4072d802015/facial_recognition.jpg?fm=webp&w=1920',
+    bgColor: '#ff0000',
+  },
+  {
+    src: 'https://images.ctfassets.net/3viuren4us1n/4TqSXKMxKpDQmNpsDKEx7f/07bfe086f9bbac7abbbd5617b1dbe1de/tripletloss.jpg?fm=webp&w=1920',
+    bgColor: '#33c3ff',
+  },
+  {
+    src: 'https://images.ctfassets.net/3viuren4us1n/40JXje75HcC6C0A6M3jWuM/08248f37b305973102a8eeb6edb0dd55/face_embeddings.jpg?fm=webp&w=1920',
+    bgColor: '#ffffff',
+  },
 ];
 
 const ImageGallery = () => {
